@@ -1,0 +1,15 @@
+.BrowseInventoryBox, .RentalsBox, .LessonsBox, .LocationsBox, .CurrentPromoBox{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    background-image: url(bmmprojectpic1.jpg);
+    background-size: cover;
+    text-decoration-color: azure;
+    margin: 10px;
+}
+
+
+.navboxes {
+    display: flex;
+}
