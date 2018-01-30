@@ -3,38 +3,22 @@
     align-items: center;
     background-image: url(bmmprojectpic1.jpg);
     background-size: cover;
-    text-decoration-color: azure;
     margin: 10px;
 }
 
-.BrowseInventoryBox {
+.BrowseInventoryBox, .RentalsBox, .LessonsBox, .LocationsBox, .CurrentPromoBox {
     height: 400px;
-    width: 300px;
+    width: 20%;
 }
-.RentalsBox {
-    height: 195px;
-    width: 510px;
-}
-.LessonsBox {
-    height: 195px;
-    width: 350px;
-}
-.LocationsBox {
-    height: 195px;
-    width: 350px;
-}
-.CurrentPromoBox {
-    height: 195px;
-    width: 510px;
-}
+
+
 .navboxes {
     display: flex;
-    flex-wrap: wrap;
     background-color: maroon;
 }
 
 body {
-    max-width: 1200 px;
-    max-height: 420 px;
+    max-width: 100%;
+    max-height: 100%;
 
 }
