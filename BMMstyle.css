@@ -1,6 +1,4 @@
 .BrowseInventoryBox, .RentalsBox, .LessonsBox, .LocationsBox, .CurrentPromoBox{
-    width: 400px;
-    height: 200px;
     text-align: center;
     align-items: center;
     background-image: url(bmmprojectpic1.jpg);
@@ -9,7 +7,34 @@
     margin: 10px;
 }
 
-
+.BrowseInventoryBox {
+    height: 400px;
+    width: 300px;
+}
+.RentalsBox {
+    height: 195px;
+    width: 510px;
+}
+.LessonsBox {
+    height: 195px;
+    width: 350px;
+}
+.LocationsBox {
+    height: 195px;
+    width: 350px;
+}
+.CurrentPromoBox {
+    height: 195px;
+    width: 510px;
+}
 .navboxes {
     display: flex;
+    flex-wrap: wrap;
+    background-color: maroon;
+}
+
+body {
+    max-width: 1200 px;
+    max-height: 420 px;
+
 }
