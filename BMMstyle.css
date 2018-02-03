@@ -1,24 +1,150 @@
-.BrowseInventoryBox, .RentalsBox, .LessonsBox, .LocationsBox, .CurrentPromoBox{
+/*Entire site applicable content*/
+
+.topsection {
+    max-width: 1270px;
+    min-width: 1270px;
+}
+
+.bmmlogo {
+    max-width: 190px;
+    margin-left: 8px;
+}
+
+.socialmedialinks {
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navboxes {
+    background-color: maroon;
+    display: flex;
+    max-width: 1270px;
+    min-width: 1270px;
     text-align: center;
-    align-items: center;
-    background-image: url(bmmprojectpic1.jpg);
-    background-size: cover;
-    margin: 10px;
+    font-family: "Tsukushi B Round Gothic";
+    margin-bottom: 20px;
+    margin-left: 10px;
+
 }
 
 .BrowseInventoryBox, .RentalsBox, .LessonsBox, .LocationsBox, .CurrentPromoBox {
-    height: 400px;
-    width: 20%;
+    height: 38px;
+    width: 230px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: 300px;
+    background-position: center;
+    font-size: 20px;
+    color: maroon;
+    text-shadow: 0px 0px 10px white;
+    vertical-align: center;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 0px 15px white;
 }
 
 
-.navboxes {
+/*Home Page content*/
+
+.HomeContentPhotos {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
-    background-color: maroon;
-}
-
-body {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 1270px;
+    min-width: 1270px;
+    justify-content: center;
 
 }
+
+.image1 img {
+    height: 250px;
+    margin-right: 20px;
+}
+
+.image2 img {
+    height: 250px;
+    margin-right: 20px;
+}
+
+.image3 img {
+    height: 250px;
+    margin-right: 20px;
+}
+
+.HomeContentText {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 1270px;
+    min-width: 1270px;
+}
+
+
+.BMM {
+    font-size: 50px;
+    color: maroon;
+    font-family: "Tsukushi B Round Gothic";
+    font-weight: bold;
+}
+
+.slogan {
+    font-size: 25px;
+    color: maroon;
+    font-family: "Tsukushi B Round Gothic";
+}
+
+/*Browse Inventory page content*/
+
+.CategoryLinks {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1270px;
+    min-width: 1270px;
+
+
+}
+
+.WoodwindsLink, .BrassLink, .StringsLink, .GuitarsLink, .PercussionLink, .BooksLink, .KeyboardsLink {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    align-items: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-align: center;*/
+    padding-left: 5px;
+}
+
+.WoodwindsLink {
+    background-image: url("Woodwindlinkphoto.jpg");
+}
+
+.BrassLink {
+    background-image: url("BrassLinkPhoto.jpg");
+}
+.StringsLink {
+    background-image: url("StringsLinkPhoto.jpg");
+}
+.GuitarsLink {
+    background-image: url("GuitarsLinkPhoto.jpg");
+}
+.PercussionLink {
+    background-image: url("PercussionLinkPhoto.jpg");
+}
+.KeyboardsLink {
+    background-image: url("KeyboardsLinkPhoto.jpg");
+}
+/*Rentals page content*/
+
+/*Locations page content*/
+
+/*Current Promotions page content*/
+
+/*Lessons page content*/
