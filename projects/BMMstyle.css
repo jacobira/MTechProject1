@@ -163,17 +163,590 @@
     height: auto;
     width: 1270px;
     justify-content: space-between;
+    margin: 10px;
 }
 
 .Flutes, .Clarinets, .Saxophones, .DoubleReeds {
     height: 300px;
-    width: 250px;
+    width: 290px;
     text-align: center;
     margin-top: 20px;
+    text-decoration: none;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 25px black;
+    padding-top: 10px;
 }
 
 .Flutes {
-    
+    background-image: url("flutecloseup.jpg");
+    background-size: cover;
+}
+.FlutePageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.FluteInventory, .FluteAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.FluteListing, .FluteAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: maroon;
+    text-shadow: 0px 0px 25px white;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.FluteListing {
+    background-image: url("flutecloseup.jpg");
+    background-size: cover;
+}
+
+.FluteAccListing {
+    background-image: url("flutecloseup.jpg");
+    background-size: cover;
+}
+.Clarinets {
+    background-image: url("Woodwindlinkphoto.jpg");
+    background-size: cover;
+}
+.ClarinetPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.ClarinetInventory, .ClarinetAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ClarinetListing, .ClarinetAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: maroon;
+    text-shadow: 0px 0px 25px white;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ClarinetListing {
+    background-image: url("Woodwindlinkphoto.jpg");
+    background-size: cover;
+}
+.ClarinetAccListing {
+    background-image: url("Woodwindlinkphoto.jpg");
+    background-size: cover;
+}
+.Saxophones {
+    background-image: url("saxophonecloseup.jpg");
+    background-size: cover;
+}
+.SaxPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.SaxInventory, .SaxAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.SaxListing, .SaxAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: maroon;
+    text-shadow: 0px 0px 25px white;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.SaxListing {
+    background-image: url("saxophonecloseup.jpg");
+    background-size: cover;
+}
+.SaxAccListing {
+    background-image: url("saxophonecloseup.jpg");
+    background-size: cover;
+}
+.DoubleReeds {
+    background-image: url("doublereedcloseup.jpg");
+    background-size: cover;
+}
+
+.DblreedPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.DblreedInventory, .DblreedAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.DblreedListing, .DblreedAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.DblreedListing {
+    background-image: url("doublereedcloseup.jpg");
+    background-size: cover;
+}
+.DblreedAccListing {
+    background-image: url("doublereedcloseup.jpg");
+    background-size: cover;
+}
+
+/*Inventory-Brass page content*/
+
+.BrassGroups {
+    display: flex;
+    height: auto;
+    width: 1270px;
+    justify-content: space-between;
+    margin: 10px;
+}
+.TrumpetsCornets, .Trombones, .FrenchHorns, .TubasEuphoniumsBaritones {
+    height: 300px;
+    width: 290px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 25px black;
+    padding-top: 10px;
+}
+.TrumpetsCornets {
+    background-image: url("trumpetcloseup.jpg");
+    background-size: cover;
+}
+.TrumpetPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.TrumpetInventory, .TrumpetAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.TrumpetListing, .TrumpetAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.TrumpetListing {
+    background-image: url("trumpetcloseup.jpg");
+    background-size: cover;
+}
+.TrumpetAccListing {
+    background-image: url("trumpetcloseup.jpg");
+    background-size: cover;
+}
+.Trombones {
+    background-image: url("trombonecloseup.jpg");
+    background-size: cover;
+}
+.TrombonePageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.TromboneInventory, .TromboneAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.TromboneListing, .TromboneAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.TromboneListing {
+    background-image: url("trombonecloseup.jpg");
+    background-size: cover;
+}
+.TromboneAccListing {
+    background-image: url("trombonecloseup.jpg");
+    background-size: cover;
+}
+
+.FrenchHorns {
+    background-image: url("BrassLinkPhoto.jpg");
+    background-size: cover;
+}
+.HornPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.HornInventory, .HornAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.HornListing, .HornAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.HornListing {
+    background-image: url("BrassLinkPhoto.jpg");
+    background-size: cover;
+}
+.HornAccListing {
+    background-image: url("BrassLinkPhoto.jpg");
+    background-size: cover;
+}
+.TubasEuphoniumsBaritones {
+    background-image: url("tubaupclose.jpg");
+    background-size: cover;
+}
+.TubaPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.TubaInventory, .TubaAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.TubaListing, .TubaAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.TubaListing {
+    background-image: url("tubaupclose.jpg");
+    background-size: cover;
+}
+.TubaAccListing {
+    background-image: url("tubaupclose.jpg");
+    background-size: cover;
+}
+
+/*Inventory-Strings page content*/
+.StringGroups {
+    display: flex;
+    height: auto;
+    width: 1270px;
+    justify-content: space-between;
+    margin: 10px;
+}
+.Violins, .Violas, .Cellos, .Basses {
+    height: 300px;
+    width: 290px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 25px black;
+    padding-top: 10px;
+}
+.Violins {
+    background-image: url("StringsLinkPhoto.jpg");
+    background-size: cover;
+}
+.ViolinPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.ViolinInventory, .ViolinAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ViolinListing, .ViolinAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ViolinListing {
+    background-image: url("StringsLinkPhoto.jpg");
+    background-size: cover;
+}
+.ViolinAccListing {
+    background-image: url("StringsLinkPhoto.jpg");
+    background-size: cover;
+}
+
+
+.Violas {
+    background-image: url("Violaupclose.jpg");
+    background-size: cover;
+}
+.ViolaPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.ViolaInventory, .ViolaAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ViolaListing, .ViolaAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ViolaListing {
+    background-image: url("Violaupclose.jpg");
+    background-size: cover;
+}
+.ViolaAccListing {
+    background-image: url("Violaupclose.jpg");
+    background-size: cover;
+}
+.Cellos {
+    background-image: url("Celloupclose.jpg");
+    background-size: cover;
+}
+.CelloPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.CelloInventory, .CelloAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.CelloListing, .CelloAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.CelloListing {
+    background-image: url("Celloupclose.jpg");
+    background-size: cover;
+}
+.CelloAccListing {
+    background-image: url("Celloupclose.jpg");
+    background-size: cover;
+}
+.Basses {
+    background-image: url("Bassupclose.jpg");
+    background-size: cover;
+}
+.BassPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.BassInventory, .BassAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.BassListing, .BassAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.BassListing {
+    background-image: url("Bassupclose.jpg");
+    background-size: cover;
+}
+.BassAccListing {
+    background-image: url("Bassupclose.jpg");
+    background-size: cover;
+}
+
+/*Guitars page*/
+.GuitarPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.GuitarInventory, .GuitarAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.GuitarListing, .GuitarAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.GuitarListing {
+    background-image: url("GuitarsLinkPhoto.jpg");
+    background-size: cover;
+}
+.GuitarAccListing {
+    background-image: url("GuitarsLinkPhoto.jpg");
+    background-size: cover;
 }
 
 /*Rentals page content*/
