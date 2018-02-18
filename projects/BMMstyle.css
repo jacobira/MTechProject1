@@ -3,19 +3,34 @@
 .topsection {
     max-width: 1270px;
     min-width: 1270px;
+    height: 80px;
+    display: flex;
 }
 
 .bmmlogo {
-    max-width: 190px;
+    width: 190px;
     margin-left: 8px;
 }
 
 .socialmedialinks {
-    float: right;
     margin-top: 25px;
     margin-bottom: 25px;
+    display: flex;
+    margin-left: 1045px;
 }
-
+.twitter, .facebook {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.twitter {
+    background-image: url("icon-twitter.png");
+    background-size: contain;
+}
+.facebook {
+    background-image: url("facebook-logo-grey.png");
+    background-size: contain;
+}
 .navboxes {
     background-color: maroon;
     display: flex;
@@ -25,6 +40,7 @@
     font-family: "Tsukushi B Round Gothic";
     margin-bottom: 20px;
     margin-left: 10px;
+    border-radius: 5px;
 
 }
 
@@ -43,6 +59,7 @@
     font-weight: bold;
     background-color: white;
     box-shadow: 0px 0px 15px white;
+    border-radius: 5px;
 }
 
 
@@ -59,19 +76,10 @@
 
 }
 
-.image1 img {
+.image1 img, .image2 img, .image3 img {
     height: 250px;
     margin-right: 20px;
-}
-
-.image2 img {
-    height: 250px;
-    margin-right: 20px;
-}
-
-.image3 img {
-    height: 250px;
-    margin-right: 20px;
+    border-radius: 5px;
 }
 
 .HomeContentText {
@@ -119,6 +127,7 @@
     font-weight: bold;
     text-decoration: none;
     padding-left: 5px;
+    border-radius: 5px;
 }
 
 .WoodwindsLink {
@@ -154,6 +163,7 @@
     padding-top: 5px;
     margin-top: 10px;
     text-align: center;
+    border-radius: 5px;
 }
 
 /*Inventory-Woodwinds Page Content*/
@@ -750,9 +760,185 @@
 }
 
 /*Rentals page content*/
+.RentContent {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1270px;
+    min-width: 1270px;
+    justify-content: center;
 
+}
+.WoodwindsRentLink, .BrassRentLink, .StringsRentLink, .PercussionRentLink {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: bold;
+    background-size: cover;
+}
+.WoodwindsRentLink {
+    background-image: url("Woodwindlinkphoto.jpg");
+}
+.BrassRentLink {
+    background-image: url("BrassLinkPhoto.jpg");
+}
+.StringsRentLink {
+    background-image: url("StringsLinkPhoto.jpg");
+}
+.PercussionRentLink {
+    background-image: url("PercussionLinkPhoto.jpg");
+}
+.PaymentsLink {
+    width: 500px;
+    height: 50px;
+    background-color: maroon;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Tsukushi B Round Gothic";
+    margin-top: 10px;
+}
+/*Percussion Browse page content*/
+.PercussionPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.PercussionInventory, .PercussionAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.PercussionListing, .PercussionAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.PercussionListing {
+    background-image: url("PercussionLinkPhoto.jpg");
+    background-size: cover;
+}
+.PercussionAccListing {
+    background-image: url("PercussionLinkPhoto.jpg");
+    background-size: cover;
+}
+
+/*Keyboards Browse page content*/
+
+.KeysPageContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.KeysInventory, .KeysAccessories {
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 20px maroon;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.KeysListing, .KeysAccListing {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    color: white;
+    text-shadow: 0px 0px 25px black;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.KeysListing {
+    background-image: url("KeyboardsLinkPhoto.jpg");
+    background-size: cover;
+}
+.KeysAccListing {
+    background-image: url("KeyboardsLinkPhoto.jpg");
+    background-size: cover;
+}
 /*Locations page content*/
+.LocationsContainer {
+    width: 1270px;
+    margin-left: 10px;
+}
+.OremLocation {
+    width: 300px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.OremGooglePhoto {
+    width: 300px;
+    height: 300px;
+    background-image: url("BMMGooglePhoto.png");
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px maroon;
 
+}
+.OremInfo {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Tsukushi B Round Gothic";
+    text-align: center;
+}
 /*Current Promotions page content*/
-
+.PromoContent {
+    width: 1270px;
+    text-align: center;
+    font-family: "Tsukushi B Round Gothic";
+    font-size: 50px;
+    font-weight: bold;
+    color: maroon;
+    margin-top: 50px;
+}
 /*Lessons page content*/
+.LessonListContainer {
+    margin-left: 10px;
+    width: 1270px;
+}
+.LessonListContainer .ListTitle {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Tsukushi B Round Gothic";
+    color: maroon;
+}
+.LessonsList {
+    margin-left: 525px;
+    color: maroon;
+    font-family: "Tsukushi B Round Gothic";
+    font-weight: bold;
+
+}
+.LessonsList ul {
+    color: black;
+    font-weight: normal;
+}
